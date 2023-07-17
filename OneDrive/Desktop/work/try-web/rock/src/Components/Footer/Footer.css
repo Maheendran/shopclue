@@ -1,0 +1,22 @@
+.footer_p{
+    font-size: 0.8rem;
+  
+  }
+  .footer_main{
+    background-color:#1f76a3;
+
+  }
+  .footer_icon{
+    font-size: 1.4rem;
+    color: white;
+  }
+@media screen and (max-width: 520px) {
+    .footer_p{
+      font-size: 0.6rem;
+    
+    }
+  
+  }
+
+ 
+  

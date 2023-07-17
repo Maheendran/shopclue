@@ -1,0 +1,111 @@
+
+.bannerMain{
+   
+    width: 100%;
+max-height: 100%;
+    min-height: 100vh;
+    position: relative;
+color: #202121;
+background-image: url('../../../public/assests/Home.jpg');
+background-position: center;
+background-size: cover;
+}
+
+.banner_heading{
+    margin-top: 8%;
+
+}
+.heading_p{
+    width: 95%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.307);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+.banner_heading p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.banner_heading h1{
+    font-size: 3rem;
+font-family: 'Righteous', cursive;
+  background: rgb(25,100,63);
+    background: linear-gradient(302deg, rgba(25,100,63,1)20%, rgb(34, 145, 201) 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* Safari/Chrome support */
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* Safari/Chrome support */
+}
+
+  
+.bannerImg{
+    overflow: hidden;
+    animation:  bannerimg 8s linear infinite;
+}
+@keyframes bannerimg{
+    50%{
+        transform: translateY(2rem);
+    }
+}
+/* @media screen and (max-width: 540px) {
+    .banner_heading h1{
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    .banner_heading {
+        margin-top: 17%;
+    }
+   
+  .scrolltop{
+    display: none;
+  }
+   
+  } */
+  @media screen and (min-width: 520px)and (max-width: 800px) {
+    .banner_heading h1{
+        font-size: 4rem;
+    }
+    .banner_heading {
+        margin-top: 17%;
+    }
+   
+    .bannerMain{
+        height: 100%;
+        /* height: 45vh; */
+    }
+  }
+  @media screen and (min-width: 801px)and (max-width: 1012px) {
+    .banner_heading h1{
+        font-size: 4rem;
+        margin-top: 17%;
+    }
+  
+  }
+  @media screen and (min-width: 292px)and (max-width: 519px)  {
+    .banner_heading p{
+      font-size: 0.8rem;
+    }
+    .banner_heading h1{
+        /* font-size: 3rem; */
+        font-size: 10vw;
+        margin-top: 17%;
+    }
+    .banner_heading {
+        margin-top: 17%;
+    }
+   
+  .scrolltop{
+    display: none;
+  }
+   
+  
+   
+  }
+  @media screen and (max-width: 293px) {
+    .banner_heading h1{
+        margin-top: 4rem;
+        font-size: 15vw;
+    }
+  
+   
+  }
